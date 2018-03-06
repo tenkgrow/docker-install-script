@@ -21,7 +21,6 @@ sudo apt-get update
 sudo apt-get install docker-ce
 # Updating to latest version (specific version: '=<version>')
 apt-cache madison docker-ce
-sudo apt-get upgrade
 # Checking for functionality and version
 sudo docker run hello-world
 sudo docker --version
